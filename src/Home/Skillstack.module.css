@@ -1,0 +1,57 @@
+@media (min-width: 0px) {
+  .skillstack-container {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 300px;
+  }
+
+  .skills {
+    margin-top: 16px;
+
+    margin-left: 24px;
+  }
+
+  .skills-container h2 {
+    text-align: center;
+  }
+
+  .courses-container {
+    margin-top: 16px;
+  }
+
+  .courses-container h4 {
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .courses {
+    margin-top: 12px;
+    margin-left: 24px;
+  }
+}
+
+/* .skills-and-courses {
+  margin-left: 32px;
+  display: flex;
+}
+
+.skills-container {
+  width: 500px;
+}
+
+.skills {
+  margin-top: 16px;
+
+  margin-left: 24px;
+}
+
+.courses-container {
+  margin-top: 8px;
+}
+
+.courses {
+  margin-top: 16px;
+  margin-left: 24px;
+} */
