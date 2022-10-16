@@ -12,19 +12,19 @@ const Arrows = (props) => {
           id="arrow1"
           d="M1 2L12 9.72414L1 18"
           stroke="black"
-          stroke-width="3"
+          strokeWidth="3"
         />
         <path
           id="arrow2"
           d="M13 2L24 9.72414L13 18"
           stroke="black"
-          stroke-width="3"
+          strokeWidth="3"
         />
         <path
           id="arrow3"
           d="M25 2L36 9.72414L25 18"
           stroke="black"
-          stroke-width="3"
+          strokeWidth="3"
         />
       </g>
     </svg>

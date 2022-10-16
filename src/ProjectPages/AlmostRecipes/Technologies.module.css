@@ -1,0 +1,9 @@
+@media (min-width: 0px) {
+  .technologies {
+    text-align: center;
+  }
+
+  .technologies ul {
+    margin-top: 12px;
+  }
+}

@@ -1,0 +1,41 @@
+@import "../../vars.css";
+
+@media (min-width: 0px) {
+  .cool-features-container {
+    margin-top: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+  }
+
+  .cool-features-container h2 {
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .cool-feature {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .cool-feature p {
+    margin-top: 12px;
+  }
+
+  .cool-feature-title {
+    border-bottom: 1px solid var(--color-black);
+    border-top: 1px solid var(--color-black);
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .cool-feature-desc {
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -3,7 +3,7 @@ import classes from "./AboutMe.module.css";
 const AboutMe = () => {
   return (
     <div className={classes["aboutme_container"]}>
-      <h2>About Me</h2>
+      <h2>Hi, it's me again!</h2>
       <p>
         After playing the violin my entire childhood, I felt pretty lost when I
         entered college. After constantly switching majors, I decided to take a

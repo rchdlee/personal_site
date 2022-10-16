@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link";
 
 import Home from "./Home/Home";
 import "./App.css";
-import AlmostRecipes from "./ProjectPages/AlmostRecipes";
+import AlmostRecipes from "./ProjectPages/AlmostRecipes/AlmostRecipes";
 
 function App() {
   return (
