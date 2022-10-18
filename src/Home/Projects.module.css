@@ -29,7 +29,7 @@ svg:hover #arrow2 {
 @media (min-width: 0px) {
   .projects-container {
     width: 360px;
-    margin-top: 32px;
+    margin-top: 96px;
     padding-top: 32px;
     margin-left: auto;
     margin-right: auto;
@@ -42,7 +42,7 @@ svg:hover #arrow2 {
   }
 
   .project {
-    width: 320px;
+    width: 340px;
     margin-top: 32px;
 
     margin-left: auto;
@@ -95,5 +95,56 @@ svg:hover #arrow2 {
   .read-more svg {
     width: 24px;
     stroke: var(--color-green);
+  }
+}
+
+@media (min-width: 820px) {
+  .projects-container {
+    width: 560px;
+  }
+
+  .project {
+    width: 560px;
+    display: flex;
+  }
+
+  .project h4 {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .project-desc {
+    padding-left: 20px;
+  }
+
+  .read-more {
+    margin-top: 32px;
+    justify-content: flex-start;
+    margin-top: 16px;
+    padding-left: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .projects-container {
+    width: 720px;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .project img {
+    width: 400px;
+  }
+
+  .project h4 {
+    font-size: 28px;
+  }
+
+  .read-more {
+    justify-content: flex-start;
+    padding-left: 18px;
+    font-size: 20px;
   }
 }

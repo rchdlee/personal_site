@@ -14,13 +14,13 @@ const AboutMe = () => {
         also explored the blockchain/web3 space, met so many amazing people, and
         worked at a startup specializing in GPT-3!
       </p>
-      <p>
+      {/* <p>
         As a lover of people and the human condition, combined with my time
         spent around computers and digital communities, I've grown to love
         exploring the relationships and identities that we have online, whether
         it's user-to-user, user-to-application, user-to-corporation, or
         user-to-world.
-      </p>
+      </p> */}
       <p>
         In my free time, I love going to my favorite rock climbing gym,
         tinkering with my (small but growing!) mechanical keyboard collection,

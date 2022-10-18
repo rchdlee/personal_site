@@ -7,3 +7,27 @@
     margin-top: 12px;
   }
 }
+
+@media (min-width: 820px) {
+  .technologies {
+    margin-top: 120px;
+  }
+
+  .technologies h3 {
+    font-size: 24px;
+  }
+
+  .technologies ul {
+    margin-top: 16px;
+  }
+
+  .technologies li {
+    margin-top: 4px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .technologies {
+    margin-top: 146px;
+  }
+}

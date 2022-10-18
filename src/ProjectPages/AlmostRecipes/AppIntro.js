@@ -14,7 +14,8 @@ const AppIntro = () => {
         was practicing Javascript, so this was the perfect project to make.
         <br />
         <br />
-        And so I began...
+        And so I began... [maybe link to figma that says 'rough figma markups'
+        handwritten]
       </p>
     </div>
   );

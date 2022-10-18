@@ -32,26 +32,50 @@
   }
 }
 
-/* .skills-and-courses {
-  margin-left: 32px;
-  display: flex;
+@media (min-width: 820px) {
+  .skillstack-container {
+    width: 560px;
+  }
+
+  .skills-and-courses {
+    display: flex;
+    column-gap: 36px;
+  }
+
+  .skills-container h2 {
+    text-align: left;
+    font-size: 26px;
+  }
+
+  .skills {
+    margin-top: 32px;
+    margin-left: 12px;
+  }
+
+  .courses-container {
+    margin-top: 0px;
+  }
+
+  .courses-container h4 {
+    margin-top: 8px;
+  }
 }
 
-.skills-container {
-  width: 500px;
+@media (min-width: 1025px) {
+  .skillstack-container {
+    width: 720px;
+  }
+
+  .courses-container {
+    margin-top: 4px;
+  }
+
+  .courses-container h4 {
+    text-align: left;
+    padding-left: 16px;
+  }
+
+  .courses {
+    margin-top: 32px;
+  }
 }
-
-.skills {
-  margin-top: 16px;
-
-  margin-left: 24px;
-}
-
-.courses-container {
-  margin-top: 8px;
-}
-
-.courses {
-  margin-top: 16px;
-  margin-left: 24px;
-} */

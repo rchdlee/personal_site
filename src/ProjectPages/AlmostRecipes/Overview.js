@@ -26,8 +26,9 @@ const Overview = () => {
               currentView === "1" ? classes["active-desc"] : ""
             }`}
           >
+            <p>1</p>
             <p>
-              1. Search for recipes based on the ingredients you currently have
+              Search for recipes based on the ingredients you currently have
             </p>
           </div>
           <div
@@ -37,7 +38,8 @@ const Overview = () => {
             id="2"
             onClick={clickHandler}
           >
-            <p>2. Add your favorite recipes to your bookmarks</p>
+            <p>2</p>
+            <p>Add your favorite recipes to your bookmarks</p>
           </div>
           <div
             className={`${classes["description"]} ${
@@ -46,13 +48,13 @@ const Overview = () => {
             id="3"
             onClick={clickHandler}
           >
+            <p>3</p>
             <p>
-              3. Curate a shopping list from any additional ingredients you need
-              to cook your recipes!
+              Curate a shopping list for any additional ingredients you need to
+              cook!
             </p>
           </div>
         </div>
-        {/* <div className={classes.tsratsra}> */}
         <div className={classes["web-screenshot-container"]}>
           <img
             className={currentView === "1" ? classes["active-img"] : ""}
@@ -70,7 +72,6 @@ const Overview = () => {
             alt=""
           />
         </div>
-        {/* </div> */}
       </div>
     </div>
   );

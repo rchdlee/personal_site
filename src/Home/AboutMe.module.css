@@ -1,6 +1,29 @@
-.aboutme_container {
-  margin-top: 84px;
-  width: 320px;
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 0px) {
+  .aboutme_container {
+    margin-top: 84px;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .aboutme_container h2 {
+    margin-bottom: 32px;
+  }
+
+  .aboutme_container p {
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 820px) {
+  .aboutme_container {
+    width: 560px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .aboutme_container {
+    width: 720px;
+    /* padding: 0 24px; */
+  }
 }

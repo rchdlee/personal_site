@@ -1,0 +1,87 @@
+@import "../vars.css";
+
+@media (min-width: 0px) {
+  .contact-container {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+
+  .contact-form {
+    margin-top: 18px;
+  }
+
+  label {
+    margin-bottom: 4px;
+  }
+
+  .small-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+  }
+
+  .small-input input {
+    font-size: 18px;
+    height: 24px;
+  }
+
+  .large-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+  }
+
+  .large-input textarea {
+    font-size: 18px;
+    text-align: top;
+    height: 108px;
+  }
+
+  .button {
+    margin-top: 24px;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .button button {
+    padding: 12px 24px;
+    border: none;
+    background-color: var(--color-brown);
+    color: white;
+  }
+}
+
+@media (min-width: 820px) {
+  .contact-container {
+    margin-top: 108px;
+    width: 560px;
+  }
+
+  .contact-container h3 {
+    font-size: 20px;
+  }
+
+  .small-input input {
+    height: 32px;
+    padding-left: 8px;
+  }
+
+  .large-input textarea {
+    height: 148px;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .contact-container {
+    width: 720px;
+  }
+
+  .button button {
+    padding: 18px 32px;
+    font-size: 20px;
+  }
+}

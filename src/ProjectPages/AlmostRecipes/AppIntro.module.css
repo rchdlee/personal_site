@@ -6,3 +6,18 @@
     width: 330px;
   }
 }
+
+@media (min-width: 820px) {
+  .app-intro {
+    width: 560px;
+    margin-top: 132px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .app-intro {
+    width: 720px;
+    margin-top: 296px;
+    font-size: 16px;
+  }
+}

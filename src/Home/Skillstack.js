@@ -13,18 +13,18 @@ const Skillstack = () => {
             <li>Webpack</li>
             <li>Git/Github</li>
             <br />
-            <li>Up next to learn: either Node.JS or </li>
+            <li>Up next to learn: Node.js or Three.js</li>
           </ul>
         </div>
         <div className={classes["courses-container"]}>
-          <h4>Courses that helped me get here:</h4>
+          <h4>...and courses that helped me get here:</h4>
           <ul className={classes.courses}>
             <li>CS50 @ Harvard</li>
             <li>Jonas Scmedtmann's HTML & CSS Udemy Course</li>
             <li>Jonas Schmedtmann's Javascript Udemy Course</li>
             <li>Maximilian Schwarzmüller’s React JS Udemy Course</li>
             <br />
-            <li>...and of course, Google and Stack Overflow</li>
+            <li>and of course, Google and Stack Overflow</li>
           </ul>
         </div>
       </div>

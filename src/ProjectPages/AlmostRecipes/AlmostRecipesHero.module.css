@@ -75,3 +75,49 @@
     transform: scale(1.13) translateY(-4px);
   }
 }
+
+@media (min-width: 820px) {
+  .hero {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 96px;
+    width: 560px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .description {
+    margin-top: 54px;
+  }
+
+  .mobile-screenshots {
+    margin-top: 12px;
+  }
+
+  .mobile-screenshots img {
+    width: 120px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .hero {
+    width: 720px;
+    margin-top: 120px;
+  }
+
+  .description {
+    margin-top: 76px;
+  }
+
+  .description h1 {
+    font-size: 48px;
+  }
+
+  .mobile-screenshots img {
+    width: 160px;
+  }
+
+  .screenshot-container {
+    padding: 0;
+  }
+}
