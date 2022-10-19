@@ -1,29 +1,38 @@
 @import "../vars.css";
 
-svg {
-  cursor: pointer;
+svg path {
+  stroke: var(--color-green);
 }
 
-/* #arrowgroup {
-  fill: red;
-} */
-
-/* #arrow1,
-#arrow2,
-#arrow3 {
-  transition: all 1s ease;
-} */
-
-svg:hover #arrow1 {
-  transform: translateX(20%);
-  transition: all 1s ease;
+.arrow1,
+.arrow2,
+.arrow3 {
+  transition: all 0.6s cubic-bezier(0.05, 0.25, 0.4, 1);
+  width: 4px;
+  height: 8px;
 }
 
-svg:hover #arrow2 {
-  transform: translateX(100%);
-  transition: all 1s ease;
-
+.arrow1 {
   opacity: 0;
+  transform: translateX(-14px);
+}
+
+.arrow2 {
+  opacity: 1;
+}
+
+.arrow1-animation {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.arrow2-animation {
+  transform: translateX(14px);
+}
+
+.arrow3-animation {
+  opacity: 0;
+  transform: translateX(14px);
 }
 
 @media (min-width: 0px) {
@@ -54,16 +63,18 @@ svg:hover #arrow2 {
   }
 
   .project img {
-    width: 320px;
+    width: 314px;
     margin-top: 12px;
     filter: saturate(0);
   }
 
-  .project img:hover {
-    transition: 0.8s all ease;
-    animation-delay: 0.32s;
+  .img {
+    transition: all 0.6s cubic-bezier(0.05, 0.25, 0.4, 1);
+  }
+
+  .img.animation {
     filter: saturate(100%);
-    transform: scale(1.05);
+    scale: 1.04;
   }
 
   .project h4 {
@@ -85,16 +96,44 @@ svg:hover #arrow2 {
     justify-content: flex-end;
     column-gap: 4px;
     margin: 16px 24px 12px 0;
+    /* color: var(--color-green); */
+  }
+
+  .read-more p {
     color: var(--color-green);
   }
 
-  .read-more:active {
-    color: red;
+  .project-info a {
+    text-decoration: none;
+    color: var(--color-black);
   }
 
-  .read-more svg {
-    width: 24px;
-    stroke: var(--color-green);
+  /* .project-info a:hover {
+    text-decoration: underline;
+  } */
+
+  .project-title {
+    display: inline-block;
+    position: relative;
+    margin-left: calc((340px - 145.3px) / 2 - 12px);
+  }
+
+  .project-title:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-black);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .project-title:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 }
 
@@ -110,7 +149,7 @@ svg:hover #arrow2 {
 
   .project h4 {
     text-align: left;
-    padding-left: 20px;
+    margin-left: 20px;
   }
 
   .project-desc {
@@ -127,15 +166,20 @@ svg:hover #arrow2 {
 
 @media (min-width: 1025px) {
   .projects-container {
-    width: 720px;
+    width: 760px;
   }
 
   .project {
     width: 100%;
+    padding: 24px 32px;
   }
 
   .project img {
     width: 400px;
+  }
+
+  .project-info {
+    margin-left: 12px;
   }
 
   .project h4 {

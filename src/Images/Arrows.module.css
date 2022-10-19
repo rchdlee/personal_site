@@ -1,0 +1,32 @@
+/* svg path {
+  stroke: green;
+}
+
+#arrow1,
+#arrow2,
+#arrow3 {
+  transition: all 0.8s ease;
+}
+
+#arrow1 {
+  opacity: 0;
+  transform: translateX(-14px);
+}
+
+#arrow2 {
+  opacity: 1;
+}
+
+svg:hover #arrow1 {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+svg:hover #arrow2 {
+  transform: translateX(14px);
+}
+
+svg:hover #arrow3 {
+  opacity: 0;
+  transform: translateX(14px);
+} */

@@ -1,5 +1,36 @@
 @import "../../vars.css";
 
+.arrow1,
+.arrow2,
+.arrow3 {
+  transition: all 0.6s cubic-bezier(0.05, 0.25, 0.4, 1);
+  width: 12px;
+  height: 16px;
+}
+
+.arrow1 {
+  opacity: 0;
+  transform: translateX(-14px);
+}
+
+.arrow2 {
+  opacity: 1;
+}
+
+.arrow-link:hover svg .arrow1 {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.arrow-link:hover svg .arrow2 {
+  transform: translateX(14px);
+}
+
+.arrow-link:hover svg .arrow3 {
+  opacity: 0;
+  transform: translateX(14px);
+}
+
 @media (min-width: 0px) {
   .hero {
     display: flex;
@@ -49,7 +80,7 @@
   }
 
   .arrow-link svg {
-    width: 24px;
+    width: 32px;
   }
 
   .screenshot-container {
@@ -90,6 +121,10 @@
     margin-top: 54px;
   }
 
+  .arrow-link svg {
+    width: 48px;
+  }
+
   .mobile-screenshots {
     margin-top: 12px;
   }
@@ -111,6 +146,10 @@
 
   .description h1 {
     font-size: 48px;
+  }
+
+  .arrow-link svg {
+    width: 48px;
   }
 
   .mobile-screenshots img {
