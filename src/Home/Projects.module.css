@@ -1,6 +1,6 @@
 @import "../vars.css";
 
-svg path {
+.read-more svg path {
   stroke: var(--color-green);
 }
 
@@ -58,7 +58,7 @@ svg path {
     margin-right: auto;
     padding: 8px 12px;
 
-    border: 1px solid var(--color-green);
+    border: 2px solid var(--color-green);
     border-radius: 12px;
   }
 
@@ -66,6 +66,22 @@ svg path {
     width: 314px;
     margin-top: 12px;
     filter: saturate(0);
+  }
+
+  .img-container {
+    position: relative;
+  }
+
+  .banner {
+    position: absolute;
+    bottom: 8px;
+    background-color: var(--color-brown);
+    filter: brightness(0.9);
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 108px 0;
   }
 
   .img {
@@ -169,9 +185,18 @@ svg path {
     width: 760px;
   }
 
+  .projects-container h2 {
+    text-align: left;
+    padding-left: 24px;
+  }
+
   .project {
     width: 100%;
     padding: 24px 32px;
+  }
+
+  .project h2 {
+    text-align: left;
   }
 
   .project img {

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Playground from "../Helpers/Playground";
 
 import AlmostRecipes1 from "../Images/almostrecipes1.png";
 import Arrows from "../Images/Arrows";
@@ -30,8 +31,21 @@ const Projects = () => {
   const mouseLeaveHandlerSVG = () => {};
 
   return (
-    <div className={classes["projects-container"]} id="projects">
+    <div
+      className={classes["projects-container"]}
+      id="projects"
+      style={{ position: "relative" }}
+    >
       <h2>Things I've built</h2>
+      {/* <div
+        style={{
+          position: "absolute",
+          top: "2px",
+          left: "2px",
+        }}
+      >
+        <Playground />
+      </div> */}
       <div className={classes.project}>
         <div>
           <Link to="/projects/AlmostRecipes">
@@ -76,7 +90,7 @@ const Projects = () => {
                     <path
                       id="arrow1"
                       d="M7 9L18 16.7241L7 25"
-                      stroke-width="2"
+                      strokeWidth="2"
                       className={`${classes.arrow1} ${
                         currentImg === "1" ? classes["arrow1-animation"] : ""
                       }`}
@@ -84,7 +98,7 @@ const Projects = () => {
                     <path
                       id="arrow2"
                       d="M7 9L18 16.7241L7 25"
-                      stroke-width="2"
+                      strokeWidth="2"
                       className={`${classes.arrow2} ${
                         currentImg === "1" ? classes["arrow2-animation"] : ""
                       }`}
@@ -92,7 +106,7 @@ const Projects = () => {
                     <path
                       id="arrow3"
                       d="M21 9L32 16.7241L21 25"
-                      stroke-width="2"
+                      strokeWidth="2"
                       className={`${classes.arrow3} ${
                         currentImg === "1" ? classes["arrow3-animation"] : ""
                       }`}
@@ -105,17 +119,20 @@ const Projects = () => {
         </div>
       </div>
       <div className={classes.project}>
-        <div>
+        <div className={classes["img-container"]}>
           <img src={AlmostRecipes1} alt="The AlmostRecipes Homepage" />
+          <div className={classes["banner"]}>
+            <p>Page Under Construction</p>
+          </div>
         </div>
         <div className={classes["project-info"]}>
-          <h4>AlmostRecipes</h4>
+          <h4>Personal Website</h4>
           <p className={classes["project-desc"]}>
-            A search-by-ingrdients recipe app for your leftover groceries! Built
-            using React.JS and the Spoonacular API
+            This site! Everything here was brainstormed, designed, and coded by
+            yours truly.
           </p>
           {/* <Link to="/projects/AlmostRecipes"> */}
-          <div className={classes["read-more"]}>
+          {/* <div className={classes["read-more"]}>
             <p>Read More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +146,7 @@ const Projects = () => {
                   <path
                     id="arrow1"
                     d="M7 9L18 16.7241L7 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow1} ${
                       currentImg === "1" ? classes.arrow1anim : ""
                     }`}
@@ -137,7 +154,7 @@ const Projects = () => {
                   <path
                     id="arrow2"
                     d="M7 9L18 16.7241L7 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow2} ${
                       currentImg === "1" ? classes.arrow2anim : ""
                     }`}
@@ -145,7 +162,7 @@ const Projects = () => {
                   <path
                     id="arrow3"
                     d="M21 9L32 16.7241L21 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow3} ${
                       currentImg === "1" ? classes.arrow3anim : ""
                     }`}
@@ -153,22 +170,25 @@ const Projects = () => {
                 </g>
               </g>
             </svg>
-          </div>
+          </div> */}
           {/* </Link> */}
         </div>
       </div>
       <div className={classes.project}>
-        <div>
+        <div className={classes["img-container"]}>
           <img src={AlmostRecipes1} alt="The AlmostRecipes Homepage" />
+          <div className={classes["banner"]}>
+            <p>Building Next!</p>
+          </div>
         </div>
         <div className={classes["project-info"]}>
-          <h4>AlmostRecipes</h4>
+          <h4>Campfire</h4>
           <p className={classes["project-desc"]}>
-            A search-by-ingrdients recipe app for your leftover groceries! Built
-            using React.JS and the Spoonacular API
+            A discussion site for podcasts - think youtube with a revolving
+            comment section for different podcast discussion points.
           </p>
           {/* <Link to="/projects/AlmostRecipes"> */}
-          <div className={classes["read-more"]}>
+          {/* <div className={classes["read-more"]}>
             <p>Read More</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -182,7 +202,7 @@ const Projects = () => {
                   <path
                     id="arrow1"
                     d="M7 9L18 16.7241L7 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow1} ${
                       currentImg === "1" ? classes.arrow1anim : ""
                     }`}
@@ -190,7 +210,7 @@ const Projects = () => {
                   <path
                     id="arrow2"
                     d="M7 9L18 16.7241L7 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow2} ${
                       currentImg === "1" ? classes.arrow2anim : ""
                     }`}
@@ -198,7 +218,7 @@ const Projects = () => {
                   <path
                     id="arrow3"
                     d="M21 9L32 16.7241L21 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow3} ${
                       currentImg === "1" ? classes.arrow3anim : ""
                     }`}
@@ -206,7 +226,7 @@ const Projects = () => {
                 </g>
               </g>
             </svg>
-          </div>
+          </div> */}
           {/* </Link> */}
         </div>
       </div>

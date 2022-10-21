@@ -1,6 +1,21 @@
+import { useState } from "react";
 import classes from "./AppIntro.module.css";
 
+import Figma from "../../Images/Figma";
+
 const AppIntro = () => {
+  const [hovering, setHovering] = useState(false);
+
+  const canvasHoverHandler = () => {
+    console.log("hover");
+    setHovering(true);
+  };
+
+  const canvasUnhoverHandler = () => {
+    console.log("unhover");
+    setHovering(false);
+  };
+
   return (
     <div className={classes["app-intro"]}>
       <p>
@@ -14,9 +29,9 @@ const AppIntro = () => {
         was practicing Javascript, so this was the perfect project to make.
         <br />
         <br />
-        And so I began... [maybe link to figma that says 'rough figma markups'
-        handwritten]
+        And so I began...
       </p>
+      <Figma />
     </div>
   );
 };

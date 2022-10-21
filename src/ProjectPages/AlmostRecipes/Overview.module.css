@@ -113,12 +113,13 @@
 @media (min-width: 1025px) {
   .app-overview {
     /* width: 864px; */
+    width: 100%;
     /* background-color: transparent; */
     background-color: #92695451;
     /* border: 2px solid var(--color-brown); */
     padding-top: 24px;
     padding-bottom: 64px;
-    margin-top: 296px;
+    margin-top: 164px;
   }
 
   .app-overview h4 {

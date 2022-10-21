@@ -45,7 +45,7 @@ const AlmostRecipesHero = () => {
                   <path
                     id="arrow1"
                     d="M7 9L18 16.7241L7 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow1} ${
                       arrowAnimation ? classes.arrow1anim : ""
                     }`}
@@ -53,7 +53,7 @@ const AlmostRecipesHero = () => {
                   <path
                     id="arrow2"
                     d="M7 9L18 16.7241L7 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow2} ${
                       arrowAnimation ? classes.arrow2anim : ""
                     }`}
@@ -61,7 +61,7 @@ const AlmostRecipesHero = () => {
                   <path
                     id="arrow3"
                     d="M21 9L32 16.7241L21 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow3} ${
                       arrowAnimation ? classes.arrow3anim : ""
                     }`}
@@ -88,7 +88,7 @@ const AlmostRecipesHero = () => {
                   <path
                     id="arrow1"
                     d="M7 9L18 16.7241L7 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow1} ${
                       arrowAnimation ? classes.arrow1anim : ""
                     }`}
@@ -96,7 +96,7 @@ const AlmostRecipesHero = () => {
                   <path
                     id="arrow2"
                     d="M7 9L18 16.7241L7 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow2} ${
                       arrowAnimation ? classes.arrow2anim : ""
                     }`}
@@ -104,7 +104,7 @@ const AlmostRecipesHero = () => {
                   <path
                     id="arrow3"
                     d="M21 9L32 16.7241L21 25"
-                    stroke-width="2"
+                    strokeWidth="2"
                     className={`${classes.arrow3} ${
                       arrowAnimation ? classes.arrow3anim : ""
                     }`}

@@ -17,7 +17,11 @@
 @media (min-width: 1025px) {
   .app-intro {
     width: 720px;
-    margin-top: 296px;
+    margin-top: 120px;
     font-size: 16px;
+  }
+
+  .app-intro p {
+    margin-bottom: 42px;
   }
 }

@@ -86,8 +86,9 @@
     width: 720px;
   }
 
-  .cool-featurs-container h2 {
-    margin-bottom: 200px;
+  .cool-features-container h2 {
+    margin-bottom: 32px;
+    text-align: center;
   }
 
   .cool-feature {

@@ -7,7 +7,7 @@ import classes from "./CoolFeatures.module.css";
 const CoolFeatures = () => {
   return (
     <div className={classes["cool-features-container"]}>
-      <h2>Features that I kinda broke my back making and want to share</h2>
+      <h2>Some cool features that I built!</h2>
       <div className={classes["cool-feature"]}>
         <div className={classes["cool-feature-title"]}>
           <p>1. Dynamic URL</p>
@@ -53,13 +53,14 @@ const CoolFeatures = () => {
       </div>
       <div className={classes["cool-feature"]}>
         <div className={classes["cool-feature-title"]}>
-          <p>3. Redux + Localstorage</p>
+          <p>3. Localstorage Data Retrieval</p>
         </div>
         <div className={classes["cool-feature-container"]}>
           <div className={classes["cool-feature-desc"]}>
             <p>
               Bookmarks and shopping list ingredients are saved in localstorage
-              - which means they are preserved between page reloads and visits!
+              (and redux store) - which means they are preserved between page
+              reloads and visits!
             </p>
           </div>
           <div className={classes["feature-image"]}>

@@ -28,6 +28,45 @@
 
 @media (min-width: 1025px) {
   .technologies {
+    width: 600px;
     margin-top: 146px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .technologies h2 {
+    margin-bottom: 54px;
+    font-size: 28px;
+  }
+
+  .technologies-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .skill {
+    /* text-align: center; */
+    width: 120px;
+  }
+
+  .skill img {
+    margin-bottom: 12px;
+  }
+
+  .skill p {
+    font-size: 24px;
+  }
+
+  .skill li {
+    text-align: center;
+    font-size: 14px;
+    list-style: none;
+  }
+
+  .html,
+  .css,
+  .react,
+  .firebase {
+    height: 72px;
   }
 }
