@@ -25,8 +25,11 @@ const AppIntro = () => {
         <br />
         <br />
         And that's when AlmostRecipes was born. I was already familiar with a{" "}
-        <a href="https://spoonacular.com/food-api">recipe API</a> from when I
-        was practicing Javascript, so this was the perfect project to make.
+        <a href="https://spoonacular.com/food-api" target="_blank">
+          recipe API
+        </a>{" "}
+        from when I was practicing Javascript, so this was the perfect project
+        to make.
         <br />
         <br />
         And so I began...

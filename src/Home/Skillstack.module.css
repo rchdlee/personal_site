@@ -80,23 +80,174 @@
     margin-top: 32px;
   }
 } */
-@media (min-width: 1025px) {
+
+@media (min-width: 0px) {
   .current-skillstack {
-    width: 720px;
+    width: 360px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 256px;
-    padding-bottom: 256px;
-    padding-top: 128px;
+    padding-bottom: 86px;
+    padding-top: 116px;
   }
 
   .current-skillstack h2 {
-    margin-bottom: 24px;
+    margin-bottom: 36px;
+    text-align: center;
+    font-size: 26px;
   }
 
   .skills-and-courses {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+  }
+
+  /* .skillstack {
+    margin-top: 24px;
+  } */
+
+  .skill-row {
+    margin-bottom: 12px;
+  }
+
+  .skill-row h4 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: underline;
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 28px;
+    padding-bottom: 6px;
+    width: 84%;
+    margin: 0 auto 28px;
+  }
+
+  .skills-container {
+    margin-top: 16px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .skill img {
+    text-align: center;
+  }
+
+  .skill p {
+    margin-top: 8px;
+    text-align: center;
+    width: 64px;
+  }
+
+  .detail {
+    margin-top: 0 !important;
+  }
+
+  .html,
+  .css,
+  .js,
+  .react,
+  .github,
+  .git {
+    width: 48px;
+  }
+
+  .webpack {
+    height: 48px;
+  }
+
+  .firebase {
+    height: 48px;
+    margin-left: 8px;
+  }
+
+  .courses {
+    width: 260px;
+    /* padding-left: 24px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+  }
+
+  .courses h3 {
+    margin-bottom: 20px;
+  }
+
+  .courses ul {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    list-style: none;
+  }
+
+  .courses li {
+    margin-bottom: 8px;
+  }
+
+  .courses a {
+    color: var(--color-black);
+    text-decoration: none;
+  }
+
+  .courses a:hover {
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 820px) {
+  .current-skillstack {
+    width: 600px;
+  }
+
+  .skill-row h4 {
+    text-align: left;
+    margin: 0 4px 28px;
+  }
+
+  .skills-container {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .skills-and-courses {
+    flex-direction: row;
+  }
+
+  .courses {
+    width: 200px;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .current-skillstack {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 256px;
+    padding-bottom: 256px;
+    padding-top: 164px;
+  }
+
+  .current-skillstack h2 {
+    margin-bottom: 48px;
+  }
+
+  .skills-and-courses {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    flex-direction: row;
   }
 
   /* .skillstack {
@@ -145,6 +296,8 @@
   .courses {
     width: 260px;
     /* padding-left: 24px; */
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .courses h3 {

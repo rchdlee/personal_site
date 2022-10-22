@@ -10,9 +10,9 @@ const AboutMe = () => {
         gap year after the conclusion of my junior fall semester.
       </p>
       <p>
-        During my gap, I started teaching myself to code - At the same time, I
-        also explored the blockchain/web3 space, met so many amazing people, and
-        worked at a startup specializing in GPT-3!
+        At the beginning of 2022, I started teaching myself to code - At the
+        same time, I also explored the blockchain/web3 space, met many amazing
+        people, and worked at a startup specializing in GPT-3!
       </p>
       {/* <p>
         As a lover of people and the human condition, combined with my time

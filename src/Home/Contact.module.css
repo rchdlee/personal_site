@@ -6,6 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
+    padding-top: 48px;
   }
 
   .contact-form {
@@ -52,6 +53,19 @@
     background-color: var(--color-brown);
     color: white;
   }
+
+  .centered {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    width: 220px;
+  }
+
+  .centered svg {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 820px) {
@@ -78,6 +92,7 @@
 @media (min-width: 1025px) {
   .contact-container {
     width: 720px;
+    padding-top: 144px;
   }
 
   .button button {

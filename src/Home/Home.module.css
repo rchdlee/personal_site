@@ -1,31 +1,37 @@
-.beak-open {
-  display: none;
-}
-
-.beak-closed {
-  /* display: none; */
-}
-
-.eyeball {
-  display: none;
-}
-
-.eyeball-test {
-  position: relative;
-  top: -119px;
-  left: -60px;
-
-  /* transform: rotate(180deg); */
-  transform-origin: bottom;
-}
-
 .bird-container {
-  position: relative;
+  display: none;
 }
 
-.bird-container div {
-  transform: scale(-0.6, 0.6);
-  position: absolute;
-  right: 360px;
-  top: 64px;
+@media (min-width: 1025px) {
+  .beak-open {
+    display: none;
+  }
+
+  .beak-closed {
+    /* display: none; */
+  }
+
+  .eyeball {
+    display: none;
+  }
+
+  .eyeball-test {
+    position: relative;
+    top: -119px;
+    left: -60px;
+
+    /* transform: rotate(180deg); */
+    transform-origin: bottom;
+  }
+
+  .bird-container {
+    position: relative;
+  }
+
+  .bird-container div {
+    transform: scale(-0.6, 0.6);
+    position: absolute;
+    right: 360px;
+    top: 64px;
+  }
 }

@@ -1,4 +1,4 @@
-@media (min-width: 1025px) {
+@media (min-width: 0px) {
   .footer {
     text-align: center;
     font-size: 16px;
@@ -19,6 +19,12 @@
 
   .dash {
     margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .dash {
     margin-bottom: 32px;
   }
 }

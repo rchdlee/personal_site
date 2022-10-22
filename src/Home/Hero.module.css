@@ -32,10 +32,11 @@
 
 @media (min-width: 0px) {
   .hero-container {
-    width: 360px;
+    width: 340px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 48px;
+    /* margin-top: 48px; */
+    padding-top: 48px;
   }
 
   .hero-container h1 {

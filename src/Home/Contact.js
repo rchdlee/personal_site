@@ -84,35 +84,26 @@ const Contact = () => {
             <button>Send!</button>
           </div>
         )}
-        {messageSendStatus === "sending" && (
-          <MutatingDots
-            height="100"
-            width="100"
-            color="#4fa94d"
-            secondaryColor="#4fa94d"
-            radius="12.5"
-            ariaLabel="mutating-dots-loading"
-            wrapperStyle={{}}
-            wrapperClass=""
-            visible={true}
-          />
-          // <TailSpin
-          //   height="80"
-          //   width="80"
-          //   color="#4fa94d"
-          //   ariaLabel="tail-spin-loading"
-          //   radius="1"
-          //   wrapperStyle={{}}
-          //   wrapperClass=""
-          //   visible={true}
-          // />
-        )}
-        {messageSendStatus === "error" && (
-          <p>There was an unexpected error ;-;</p>
-        )}
-        {messageSendStatus === "success" && (
-          <p>Sent! I'll respond back to you soon :-)</p>
-        )}
+        <div className={classes.centered}>
+          {messageSendStatus === "sending" && (
+            <TailSpin
+              height="80"
+              width="80"
+              color="#4fa94d"
+              ariaLabel="tail-spin-loading"
+              radius="1"
+              wrapperStyle={{}}
+              wrapperClass=""
+              visible={true}
+            />
+          )}
+          {messageSendStatus === "error" && (
+            <p>There was an unexpected error. Please try again later!</p>
+          )}
+          {messageSendStatus === "success" && (
+            <p>Message Sent! I'll respond back to you within 24h :-)</p>
+          )}
+        </div>
       </form>
     </div>
   );

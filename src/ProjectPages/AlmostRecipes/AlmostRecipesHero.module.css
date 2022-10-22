@@ -31,6 +31,16 @@
   transform: translateX(14px);
 }
 
+.arrow-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.arrow-link {
+  stroke: var(--color-green);
+  cursor: pointer;
+}
+
 @media (min-width: 0px) {
   .hero {
     display: flex;

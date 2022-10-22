@@ -75,13 +75,13 @@
   .banner {
     position: absolute;
     bottom: 8px;
-    background-color: var(--color-brown);
+    background-color: var(--color-black);
     filter: brightness(0.9);
     color: white;
     width: 100%;
     font-size: 20px;
     text-align: center;
-    padding: 108px 0;
+    padding: 82px 0;
   }
 
   .img {
@@ -183,6 +183,7 @@
 @media (min-width: 1025px) {
   .projects-container {
     width: 760px;
+    padding-top: 116px;
   }
 
   .projects-container h2 {
@@ -201,6 +202,10 @@
 
   .project img {
     width: 400px;
+  }
+
+  .banner {
+    padding: 108px 0;
   }
 
   .project-info {

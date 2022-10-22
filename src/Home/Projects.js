@@ -127,7 +127,10 @@ const Projects = () => {
         </div>
         <div className={classes["project-info"]}>
           <h4>Personal Website</h4>
-          <p className={classes["project-desc"]}>
+          <p
+            className={classes["project-desc"]}
+            style={{ paddingBottom: "18px" }}
+          >
             This site! Everything here was brainstormed, designed, and coded by
             yours truly.
           </p>
@@ -183,7 +186,10 @@ const Projects = () => {
         </div>
         <div className={classes["project-info"]}>
           <h4>Campfire</h4>
-          <p className={classes["project-desc"]}>
+          <p
+            className={classes["project-desc"]}
+            style={{ paddingBottom: "18px" }}
+          >
             A discussion site for podcasts - think youtube with a revolving
             comment section for different podcast discussion points.
           </p>

@@ -27,7 +27,9 @@ const AlmostRecipesHero = () => {
           <p>Duration: 2 weeks</p>
         </div>
         <div className={classes["arrow-links"]}>
-          <div
+          <a
+            href="https://myrecipes-5a39a.web.app/search"
+            target="_blank"
             className={classes["arrow-link"]}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
@@ -69,11 +71,13 @@ const AlmostRecipesHero = () => {
                 </g>
               </g>
             </svg>
-          </div>
-          <div
+          </a>
+          <a
             className={classes["arrow-link"]}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
+            href="https://github.com/rchdlee/almostrecipes"
+            target="_blank"
           >
             <h4>Github Repo</h4>
             <svg
@@ -112,7 +116,7 @@ const AlmostRecipesHero = () => {
                 </g>
               </g>
             </svg>
-          </div>
+          </a>
         </div>
       </div>
       <div className={classes["screenshot-container"]}>

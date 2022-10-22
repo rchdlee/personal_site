@@ -11,7 +11,7 @@ import Firebase from "../Images/Icons/firebase.png";
 
 const Skillstack = () => {
   return (
-    <div className={classes["current-skillstack"]}>
+    <div className={classes["current-skillstack"]} id="skills">
       <h2>My Current Skillstack</h2>
       <div className={classes["skills-and-courses"]}>
         <div className={classes["skillstack"]}>
@@ -37,7 +37,7 @@ const Skillstack = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className={classes["skill-row"]}>
             <h4>Novice</h4>
             <div className={classes["skills-container"]}>
               <div className={classes["skill"]}>

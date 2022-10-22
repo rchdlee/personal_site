@@ -1,9 +1,10 @@
 @media (min-width: 0px) {
   .aboutme_container {
-    margin-top: 84px;
+    margin-top: 32px;
     width: 320px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 64px;
   }
 
   .aboutme_container h2 {
@@ -25,5 +26,7 @@
   .aboutme_container {
     width: 720px;
     /* padding: 0 24px; */
+    padding-top: 144px;
+    margin-top: 0;
   }
 }

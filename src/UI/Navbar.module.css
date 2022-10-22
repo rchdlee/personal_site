@@ -1,5 +1,114 @@
 @import "../vars.css";
 
+.test p {
+  font-size: 32px;
+}
+@media (min-width: 0px) {
+  .navbar-container {
+    width: 100vw;
+    height: 72px;
+
+    position: sticky;
+    top: 0;
+    background-color: var(--color-cream);
+    z-index: 999;
+
+    position: relative;
+  }
+
+  .menu-icon {
+    color: var(--color-black);
+    font-size: 32px;
+    text-align: right;
+    padding-top: 18px;
+    padding-right: 8px;
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid black;
+    width: 90vw;
+  }
+
+  .overlay {
+    background-color: rgba(23, 39, 27, 0.926);
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(4px);
+    opacity: 1;
+    animation: opacity 0.4s;
+  }
+
+  .overlay.fade {
+    opacity: 0;
+  }
+
+  .navbar {
+    position: absolute;
+
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar > *.animation {
+    animation: fade-out-right 0.4s ease;
+  }
+
+  @keyframes fade {
+    0% {
+      background-color: rgba(23, 39, 27, 0.926);
+      opacity: 1;
+    }
+    100% {
+      background-color: none !important;
+      opacity: 0;
+    }
+  }
+
+  @keyframes fade-out-right {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(40px);
+    }
+  }
+
+  .navbar a {
+    width: 100vw;
+    padding: 24px 12px 20px;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 32px;
+    color: white;
+    margin-left: auto;
+    padding-right: 48px;
+    text-align: right;
+  }
+
+  .x-mark {
+    color: white;
+    font-size: 48px;
+    margin-left: auto;
+    padding-right: 48px;
+    margin-bottom: 24px;
+  }
+
+  .resume-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .resume-button svg {
+    font-size: 24px;
+  }
+}
+
 @media (min-width: 1025px) {
   .navbar-container {
     width: 100%;
@@ -15,18 +124,30 @@
     margin-right: auto;
     font-size: 20px;
     border-bottom: 2px solid #36342f50;
-    padding-top: 20px;
-    padding-bottom: 16px;
 
     display: flex;
-    gap: 42px;
+    gap: 24px;
     align-items: center;
     justify-content: flex-end;
   }
 
   .navbar a {
+    padding: 24px 12px 20px;
     text-decoration: none;
     color: var(--color-black);
+  }
+
+  .hash-link:hover {
+    text-decoration: underline;
+  }
+
+  @keyframes hover {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-4px);
+    }
   }
 
   .icon {
@@ -34,26 +155,8 @@
   }
 
   .icon:hover {
-    animation: hithere 0.6s ease;
-  }
-
-  @keyframes hithere {
-    10% {
-      transform: scale(1.1);
-    }
-    30%,
-    60% {
-      transform: rotate(-10deg) scale(1.1);
-    }
-    45% {
-      transform: rotate(10deg) scale(1.1);
-    }
-    70% {
-      transform: rotate(0deg) scale(1.1);
-    }
-    95% {
-      transform: scale(1);
-    }
+    animation: hover 0.4s ease;
+    transform: translateY(-4px);
   }
 
   .resume-button {
@@ -70,5 +173,9 @@
   .resume-button:hover {
     background-color: var(--color-green);
     color: white;
+  }
+
+  .menu-icon {
+    display: none;
   }
 }
