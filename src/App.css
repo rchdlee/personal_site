@@ -16,3 +16,17 @@ body {
   src: local("Magra"),
     url("./Helpers/MagraFont/Magra-Regular.ttf") format("truetype");
 }
+
+.centeredspinner {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 144px;
+  width: 220px;
+  height: 100vh;
+}
+
+.centeredspinner svg {
+  margin-left: auto;
+  margin-right: auto;
+}

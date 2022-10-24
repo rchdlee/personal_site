@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-import { TailSpin, MutatingDots } from "react-loader-spinner";
+import { TailSpin } from "react-loader-spinner";
 import classes from "./Contact.module.css";
 
 const Contact = () => {
@@ -29,7 +29,7 @@ const Contact = () => {
         "service_if4lu4c",
         "template_w4maq2m",
         messageContent,
-        "kWqXPrf1Vfr8vVDxT[remove]"
+        "kWqXPrf1Vfr8vVDxT"
       );
       console.log(data);
       setMessageSendStatus("success");
@@ -89,7 +89,7 @@ const Contact = () => {
             <TailSpin
               height="80"
               width="80"
-              color="#4fa94d"
+              color="#445f49"
               ariaLabel="tail-spin-loading"
               radius="1"
               wrapperStyle={{}}
