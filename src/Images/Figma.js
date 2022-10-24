@@ -132,7 +132,6 @@ const Figma = () => {
           <g
             onMouseOver={hoverHandler}
             onMouseLeave={unhoverHandler}
-            className="test"
             stroke={isHovering ? "#FF272A" : "black"}
             strokeWidth={isHovering ? "4" : "3"}
           >

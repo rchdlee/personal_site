@@ -1,0 +1,95 @@
+@import "../vars.css";
+
+@media (min-width: 820px) {
+  .navigation-container {
+    background-color: var(--color-cream);
+    width: 100vw;
+    height: 72px;
+    z-index: 1000;
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigation {
+    border-bottom: 2px solid #36342f50;
+    margin-top: 12px;
+    width: 90%;
+    padding: 0 12px;
+    background-color: var(--color-cream);
+    z-index: 1000;
+
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: var(--color-black);
+
+    padding: 20px 12px 20px;
+  }
+
+  .hash-link:hover {
+    text-decoration: underline;
+  }
+
+  .resume-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid var(--color-black);
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+
+  .resume-button:hover {
+    background-color: var(--color-green);
+    color: white;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+
+  .icon:hover {
+    animation: gelatine 0.4s ease;
+  }
+
+  @keyframes gelatine {
+    from,
+    to {
+      transform: scale(1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.1, 0.9);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .navigation {
+    justify-content: flex-end;
+    gap: 20px;
+  }
+
+  .navigation {
+    font-size: 20px;
+  }
+
+  .resume-button {
+    font-size: 16px;
+  }
+}

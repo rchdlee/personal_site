@@ -93,6 +93,7 @@
   .contact-container {
     width: 720px;
     padding-top: 144px;
+    margin-top: 0;
   }
 
   .button button {

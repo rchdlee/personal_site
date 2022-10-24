@@ -1,93 +1,12 @@
 @import "../vars.css";
-/* @media (min-width: 0px) {
-  .skillstack-container {
-    width: 360px;
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-top: 300px;
-  }
-
-  .skills {
-    margin-top: 16px;
-
-    margin-left: 24px;
-  }
-
-  .skills-container h2 {
-    text-align: center;
-  }
-
-  .courses-container {
-    margin-top: 16px;
-  }
-
-  .courses-container h4 {
-    text-align: center;
-    margin-top: 24px;
-  }
-
-  .courses {
-    margin-top: 12px;
-    margin-left: 24px;
-  }
-}
-
-@media (min-width: 820px) {
-  .skillstack-container {
-    width: 560px;
-  }
-
-  .skills-and-courses {
-    display: flex;
-    column-gap: 36px;
-  }
-
-  .skills-container h2 {
-    text-align: left;
-    font-size: 26px;
-  }
-
-  .skills {
-    margin-top: 32px;
-    margin-left: 12px;
-  }
-
-  .courses-container {
-    margin-top: 0px;
-  }
-
-  .courses-container h4 {
-    margin-top: 8px;
-  }
-}
-
-@media (min-width: 1025px) {
-  .skillstack-container {
-    width: 720px;
-  }
-
-  .courses-container {
-    margin-top: 4px;
-  }
-
-  .courses-container h4 {
-    text-align: left;
-    padding-left: 16px;
-  }
-
-  .courses {
-    margin-top: 32px;
-  }
-} */
 
 @media (min-width: 0px) {
   .current-skillstack {
     width: 360px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 256px;
-    padding-bottom: 86px;
+    margin-top: 164px;
+    padding-bottom: 0px;
     padding-top: 116px;
   }
 
@@ -115,9 +34,9 @@
     text-align: center;
     font-weight: 500;
     font-size: 20px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* border-bottom: 1px solid black; */
-    margin-bottom: 28px;
+    margin-bottom: 24px;
     padding-bottom: 6px;
     width: 84%;
     margin: 0 auto 28px;
@@ -234,8 +153,8 @@
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 256px;
-    padding-bottom: 256px;
+    margin-top: 48px;
+    padding-bottom: 24px;
     padding-top: 164px;
   }
 

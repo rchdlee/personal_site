@@ -75,6 +75,10 @@
 
 @media (min-width: 1025px) {
   .hero-container {
-    width: 720px;
+    width: 520px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 184px;
+    padding-top: 84px;
   }
 } ;

@@ -10,15 +10,18 @@
 
   .cool-features-container h2 {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 24px;
+    text-align: center;
   }
 
   .cool-feature {
-    margin-top: 32px;
+    margin-top: 48px;
   }
 
   .cool-feature p {
-    margin-top: 12px;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   .cool-feature-title {

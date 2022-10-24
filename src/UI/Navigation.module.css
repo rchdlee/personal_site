@@ -5,6 +5,7 @@
     width: 100vw;
     height: 84px;
     position: relative;
+    background-color: var(--color-cream);
     z-index: 999;
   }
 
@@ -12,11 +13,11 @@
     font-size: 32px;
     text-align: right;
     position: fixed;
+    top: 0;
     background-color: var(--color-cream);
     border-bottom: 2px solid grey;
     width: calc(100vw - 32px);
     height: 84px;
-    top: 0;
     margin: 0 16px;
   }
 

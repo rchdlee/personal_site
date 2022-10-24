@@ -43,6 +43,8 @@
 
 @media (min-width: 0px) {
   .hero {
+    padding-top: 54px;
+
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
@@ -148,6 +150,7 @@
   .hero {
     width: 720px;
     margin-top: 120px;
+    padding-top: 72px;
   }
 
   .description {

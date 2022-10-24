@@ -183,7 +183,8 @@
 @media (min-width: 1025px) {
   .projects-container {
     width: 760px;
-    padding-top: 116px;
+    margin-top: 0;
+    padding-top: 108px;
   }
 
   .projects-container h2 {

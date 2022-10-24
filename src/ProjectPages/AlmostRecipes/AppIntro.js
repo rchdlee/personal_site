@@ -2,6 +2,7 @@ import { useState } from "react";
 import classes from "./AppIntro.module.css";
 
 import Figma from "../../Images/Figma";
+import ArtBirb from "../../Images/ArtBirb";
 
 const AppIntro = () => {
   const [hovering, setHovering] = useState(false);
@@ -27,14 +28,15 @@ const AppIntro = () => {
         And that's when AlmostRecipes was born. I was already familiar with a{" "}
         <a href="https://spoonacular.com/food-api" target="_blank">
           recipe API
-        </a>{" "}
+        </a>
         from when I was practicing Javascript, so this was the perfect project
         to make.
         <br />
         <br />
         And so I began...
       </p>
-      <Figma />
+      {/* <Figma /> */}
+      <ArtBirb />
     </div>
   );
 };

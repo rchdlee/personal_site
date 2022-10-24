@@ -1,0 +1,34 @@
+@media (min-width: 0px) {
+  .art-birb {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 48px;
+  }
+
+  .birb {
+    transform: translateX(-60px) translateY(-154px);
+  }
+
+  .easel {
+    transform: translateX(14px);
+  }
+}
+
+@media (min-width: 825px) {
+  .art-birb {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .birb {
+    margin-bottom: 54px;
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@media (min-width: 1025px) {
+  .birb {
+    margin-bottom: 36px;
+  }
+}
