@@ -142,7 +142,7 @@ const ArtBirb = () => {
           />
         </g>
         <a
-          href="https://www.figma.com/file/DhLzWC6LExWIgPV069GMtr/Untitled?node-id=0%3A1"
+          href="https://www.figma.com/file/o8BoDnMf2BQStKGs1YzwUf/Untitled?node-id=0%3A1"
           target="_blank"
         >
           <g
