@@ -26,6 +26,15 @@ const AboutMe = () => {
         tinkering with my (small but growing!) mechanical keyboard collection,
         and listening to Lex Fridman podcasts!
       </p>
+      <br />
+      <p>
+        <span style={{ fontWeight: 600 }}>
+          I'm also currently looking for my first job as a junior React/Frontend
+          Engineer!
+        </span>{" "}
+        If you know of any opportunities, please let me know! It would mean the
+        world to me 🤗💓
+      </p>
     </div>
   );
 };
