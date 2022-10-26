@@ -74,6 +74,7 @@ const Skillstack = () => {
               <a
                 href="https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0"
                 target="blank"
+                rel="noreferrer"
               >
                 CS50 @ Harvard
               </a>
@@ -82,6 +83,7 @@ const Skillstack = () => {
               <a
                 href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Jonas Schmedtmann’s HTML & CSS Udemy course
               </a>
@@ -90,6 +92,7 @@ const Skillstack = () => {
               <a
                 href="https://www.udemy.com/course/the-complete-javascript-course/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Jonas Schmedtmann’s Javascript Udemy course
               </a>
@@ -98,6 +101,7 @@ const Skillstack = () => {
               <a
                 href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Maximilian Schwarzmüller’s React JS Udemy Course
               </a>

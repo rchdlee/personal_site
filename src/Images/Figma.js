@@ -128,6 +128,7 @@ const Figma = () => {
         <a
           href="https://www.figma.com/file/DhLzWC6LExWIgPV069GMtr/Untitled?node-id=0%3A1"
           target="_blank"
+          rel="noreferrer"
         >
           <g
             onMouseOver={hoverHandler}

@@ -144,6 +144,7 @@ const ArtBirb = () => {
         <a
           href="https://www.figma.com/file/o8BoDnMf2BQStKGs1YzwUf/Untitled?node-id=0%3A1"
           target="_blank"
+          rel="noreferrer"
         >
           <g
             id="figma-easel"

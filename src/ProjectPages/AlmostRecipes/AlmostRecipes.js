@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
-import classes from "./AlmostRecipes.module.css";
+// import classes from "./AlmostRecipes.module.css";
 import AlmostRecipesHero from "./AlmostRecipesHero";
 import AppIntro from "./AppIntro";
 import CoolFeatures from "./CoolFeatures";

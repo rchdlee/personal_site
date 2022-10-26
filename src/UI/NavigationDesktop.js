@@ -46,6 +46,7 @@ const NavigationDesktop = () => {
           href="https://www.linkedin.com/in/richardyubinlee/"
           className={`${classes["icon"]}`}
           target="_blank"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
@@ -54,10 +55,11 @@ const NavigationDesktop = () => {
           className={`${classes["icon"]}`}
           href="https://github.com/rchdlee"
           target="_blank"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href={Resume} target="_blank">
+        <a href={Resume} target="_blank" rel="noreferrer">
           <div className={classes["resume-button"]}>
             <p>Resume</p>
             <FontAwesomeIcon icon={faUpRightFromSquare} />

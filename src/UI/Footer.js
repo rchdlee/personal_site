@@ -6,10 +6,10 @@ import classes from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={classes.footer}>
-      <img src={Leaf} className={classes.leaf} />
+      <img src={Leaf} alt="leaf" className={classes.leaf} />
       <p className={classes.message}>Designed and built with ❤</p>
       <p className={classes.name}>Richard Lee 2022</p>
-      <img src={Dash} alt="leaf" className={classes.dash} />
+      <img src={Dash} alt="dash" className={classes.dash} />
     </div>
   );
 };

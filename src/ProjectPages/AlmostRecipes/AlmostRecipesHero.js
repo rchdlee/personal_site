@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import Arrows from "../../Images/Arrows";
+// import Arrows from "../../Images/Arrows";
 import PantryMobile from "../../Images/pantry_screenshot_mobile.png";
 import BookmarksMobile from "../../Images/bookmarks_screenshot_mobile.png";
 import RecipeMobile from "../../Images/recipe_screenshot_mobile.png";
@@ -33,6 +33,7 @@ const AlmostRecipesHero = () => {
             className={classes["arrow-link"]}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
+            rel="noreferrer"
           >
             <h4>Live Site</h4>
             <svg
@@ -78,6 +79,7 @@ const AlmostRecipesHero = () => {
             onMouseLeave={mouseLeaveHandler}
             href="https://github.com/rchdlee/almostrecipes"
             target="_blank"
+            rel="noreferrer"
           >
             <h4>Github Repo</h4>
             <svg

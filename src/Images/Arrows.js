@@ -1,4 +1,4 @@
-import classes from "./Arrows.module.css";
+// import classes from "./Arrows.module.css";
 
 const Arrows = (props) => {
   return (

@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Playground from "../Helpers/Playground";
 
 import AlmostRecipes1 from "../Images/almostrecipes1.png";
-import Arrows from "../Images/Arrows";
 import classes from "./Projects.module.css";
 
 const Projects = () => {
@@ -24,11 +22,7 @@ const Projects = () => {
     setCurrentImg("");
   };
 
-  const mouseOverHandlerSVG = () => {
-    setCurrentImg();
-  };
 
-  const mouseLeaveHandlerSVG = () => {};
 
   return (
     <div
@@ -62,7 +56,7 @@ const Projects = () => {
           </Link>
         </div>
         <div className={classes["project-info"]}>
-          <a href="https://myrecipes-5a39a.web.app/search" target="_blank">
+          <a href="https://myrecipes-5a39a.web.app/search" target="_blank" rel="noreferrer">
             <h4 className={classes["project-title"]}>AlmostRecipes</h4>
           </a>
           <p className={classes["project-desc"]}>

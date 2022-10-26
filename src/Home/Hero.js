@@ -1,9 +1,6 @@
 import { useRef } from "react";
 import classes from "./Hero.module.css";
 
-import Birb from "../Images/birb.svg";
-import Playground from "../Helpers/Playground";
-
 const Hero = () => {
   const eyeRef = useRef();
 
@@ -29,20 +26,11 @@ const Hero = () => {
 
   return (
     <div className={classes["hero-container"]} onMouseMove={mouseMoveHandler}>
-      {/* <div className={classes.squares}>
-        <div className={`${classes.square} ${classes.green}`}></div>
-        <div className={`${classes.square} ${classes.black}`}></div>
-        <div className={`${classes.square} ${classes.brown}`}></div>
-        <div className={`${classes.square} ${classes.cream}`}></div>
-        <div className={`${classes.square} ${classes.grey}`}></div>
-      </div> */}
       <h1>Hi, I'm Richard!</h1>
       <h3>
         I'm a self-taught frontend dev, studying psychology and neuroscience at
         UPenn
       </h3>
-      {/* <Playground /> */}
-      {/* <img src={Birb} alt="birb" width="120" /> */}
     </div>
   );
 };

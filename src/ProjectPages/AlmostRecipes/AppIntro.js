@@ -1,22 +1,8 @@
-import { useState } from "react";
 import classes from "./AppIntro.module.css";
 
-import Figma from "../../Images/Figma";
 import ArtBirb from "../../Images/ArtBirb";
 
 const AppIntro = () => {
-  const [hovering, setHovering] = useState(false);
-
-  const canvasHoverHandler = () => {
-    console.log("hover");
-    setHovering(true);
-  };
-
-  const canvasUnhoverHandler = () => {
-    console.log("unhover");
-    setHovering(false);
-  };
-
   return (
     <div className={classes["app-intro"]}>
       <p>
@@ -26,16 +12,19 @@ const AppIntro = () => {
         <br />
         <br />
         And that's when AlmostRecipes was born. I was already familiar with a{" "}
-        <a href="https://spoonacular.com/food-api" target="_blank">
+        <a
+          href="https://spoonacular.com/food-api"
+          target="_blank"
+          rel="noreferrer"
+        >
           recipe API
-        </a>
+        </a>{" "}
         from when I was practicing Javascript, so this was the perfect project
         to make.
         <br />
         <br />
         And so I began...
       </p>
-      {/* <Figma /> */}
       <ArtBirb />
     </div>
   );
